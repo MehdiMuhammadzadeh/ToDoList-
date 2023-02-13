@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To do List</title>
+</head>
+
+<body>
+
+  <header class="main-header">
+    <nav class="main-nav">
+      <input type="text" id="search-task" placeholder="Search ...">
+    </nav>
+  </header>
+  <main class="main-content">
+    <div class="container">
+      <div class="modal show">
+        <h1 class="title">Add a Task to do</h1>
+        <form id="add-todo-form">
+          <div>
+            <input type="text" name="taskItem" placeholder="add task...">
+          </div>
+          <div class="buttons">
+            <button type="submit" class="add-btn" id="addTodoButton">add task</button>
+            <button class="cancel-btn" type="button">cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="task-list">
+  
+    </div> 
+  </main>
+  <!-- <div class="task-list"></div> -->
+  <footer>
+    <button class="add-task-btn">+</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<!-- classListToggle -->

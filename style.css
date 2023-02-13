@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+.main-header {
+  /* background-color: #989898; */
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-nav {
+  width: 100%;
+}
+
+.main-nav input {
+  height: 70px;
+  width: 75%;
+  box-shadow: 0px 0px 25px 1px rgb(216, 212, 212);
+  border-radius: 4px;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+
+}
+
+/* @Dev modal Styles  */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.container .modal {
+  width: 75%;
+  box-shadow: 0px 0px 25px 1px rgb(216, 212, 212);
+  display: none;
+  height: 550px;
+}
+
+.container h1 {
+  margin-bottom: 3.5rem;
+}
+
+.title {
+  margin-top: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+}
+
+.modal input {
+  height: 70px;
+  width: 75%;
+  box-shadow: 0px 0px 25px 1px rgb(216, 212, 212);
+  border-radius: 4px;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  margin: 3.5rem 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3.5rem;
+}
+
+.buttons .add-btn,
+.cancel-btn {
+  /* background-color: red; */
+  border: none;
+  padding: 2rem 3.5rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.add-btn {
+  background-color: rgb(0, 47, 255);
+}
+
+.add-btn:hover {
+  background-color: rgb(4, 39, 196);
+}
+
+.cancel-btn {
+  background-color: #e82309;
+}
+
+.cancel-btn:hover {
+  background-color: #b31c08;
+
+}
+
+footer {
+  position: absolute;
+  top: 85%;
+  left: 50px;
+}
+
+footer button {
+
+  border-radius: 50%;
+  padding: 1.8rem;
+  background-color: rgb(0, 47, 255);
+  box-shadow: 0px 0px 10px 1px rgb(0, 47, 255);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  /* font-weight: bold; */
+}
+
+
+.task-list {
+
+  width: 75%;
+  /* height: 50px; */
+  /* padding: 0 10px; */
+  display: none;
+   /*flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.task-list span {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1.4rem;
+  color: #003775;
+  box-shadow: 0px 0px 5px 1px rgb(180, 255, 254);
+ 
+
+}
