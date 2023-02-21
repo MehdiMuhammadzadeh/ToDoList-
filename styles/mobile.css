@@ -1,0 +1,41 @@
+body {
+ 
+  min-width: 578px;
+}
+
+.container .modal {
+  height: 480px;
+}
+
+.main-nav input {
+  height: 60px;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+}
+
+
+.modal input {
+  height: 60px;
+  margin: 2rem 0;
+  width: 90%;
+}
+
+.buttons .add-todo-btn,
+.cancel-btn, .edit {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.modal input { 
+  border-radius: 4px;
+  font-size: 1.2rem;
+  outline: none;
+  margin: 2.5rem 0;
+}
+
+.editButton {
+  padding: .5rem 1rem;
+  background-color: green;
+}
